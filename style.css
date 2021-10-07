@@ -1,0 +1,69 @@
+.body{
+  
+  background-color: darkgray;
+}.row> *{
+
+  border:0px solid purple;
+  
+}
+.container{
+  border: 3px solid black;
+  font-family: 'Oswald', sans-serif;
+  background-image: linear-gradient(to right top, #77d14f, #bb9802, #cd5b32, #ae2c5e, #632c76);
+}
+.find{
+  border:0px solid black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.find i{
+  margin:0rem 0rem 0rem 2rem;
+}
+.find input{
+  border:0rem;
+  margin:3rem 0rem 3rem 1rem;
+  width:20rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.event1{
+  border:0px solid black;
+  margin:2rem 0rem 2rem 0rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.event1 h3{
+  text-align: center;
+}
+.event>div:nth-child(1){
+  width:47%;
+  border:0px solid black;
+}
+.event>div:nth-child(2){
+  width:47%;
+  border:0px solid black;
+  margin:0rem 0rem 0rem 0.9rem;
+}
+.event{
+  display:flex;
+}
+button{
+  width:7rem;
+  height:2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+}
+button:hover{
+  background-color: orangered;
+  
+}
+.container img{
+  height:9rem;
+  width:7.2rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.bottom{
+  margin:1rem 0rem 3rem 0rem;
+
+}
